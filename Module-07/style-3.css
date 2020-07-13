@@ -1,0 +1,33 @@
+*{
+    margin: 150;
+    padding: 30;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    padding: 30px; 
+}
+
+
+/* *******task-6 ******** */
+#validation-input {
+    border: 3px solid #bdbdbd;
+}
+    
+#validation-input.valid {
+  border-color: #4caf50;
+}
+    
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
